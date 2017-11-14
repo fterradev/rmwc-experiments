@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+//import './App.css';
 import { Button, Typography, FormField, Textfield } from 'rmwc';
 
 class App extends Component {
@@ -10,11 +11,11 @@ class App extends Component {
         <form action="#" id="greeting-form">
           <div>
             <FormField>
-              <Textfield id="firstname" label="First Name" tag="div" />
+              <Textfield id="firstname" label="First Name" />
             </FormField>
       
             <FormField>
-              <Textfield id="lastname" label="Last Name" tag="div" />
+              <Textfield id="lastname" label="Last Name" />
             </FormField>
           </div>
 
